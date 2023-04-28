@@ -2,7 +2,7 @@
 export class Product {
     id: number;
     title: string;
-    modelName: string;
+    productSizes: string;
     color: string;
     productType: string;
     brand: string;

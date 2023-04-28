@@ -1,4 +1,4 @@
-<div class="card">
+<div class="container-fluid"><div class="card">
   <div class="card-body">
     <h4 class="card-title">PRODUCT DETAILS : 
       <i *ngIf="product?.productType=='Apparel'" class="fa-solid fa-shirt" style="color:#115a64" aria-hidden="true"></i>
@@ -16,8 +16,8 @@
             <td>{{product?.title}}</td>
           </tr>
           <tr>
-            <th>Model Name</th>
-            <td>{{product?.modelName}}</td>
+            <th>Sizes </th>
+            <td>{{product?.productSizes}}</td>
           </tr>
           <tr>
             <th>Color</th>
@@ -29,7 +29,7 @@
           </tr>
           <tr>
             <th>Price</th>
-            <td>{{product?.price | currency : 'INR'}}</td>
+            <td>{{product?.price | currency : 'USD'}}</td>
           </tr>
 
         </table>

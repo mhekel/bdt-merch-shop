@@ -5,12 +5,12 @@ export class MockData {
     public static Products: Product[] = [
         {
             'id': 11,
-            'title': 'OPPO F5 Youth (Gold, 32 GB)',
-            'modelName': 'F5 Youth',
+            'title': ' Adult Unisex Basic Tee',
+            'productSizes': 'S-4x',
             'color': 'Gold',
             'productType': 'Apparel',
-            'brand': 'OPPO',
-            'price': 500
+            'brand': 'Gilden',
+            'price': 15.99
         },
         {
             'id': 12,
