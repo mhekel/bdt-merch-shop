@@ -6,12 +6,12 @@ export class InMemoryProductService extends InMemoryDbService {
     const products = [
       {
         'id': 11,
-        'title': 'OPPO F5 Youth (Gold, 32 GB)',
-        'modelName': 'F5 Youth',
+        'title': 'Adult Unisex Basic Tee',
+        'proctSizes': 'S-4x',
         'color': 'Gold',
         'productType': 'Apparel',
         'brand': 'OPPO',
-        'price': 16990
+        'price': 15.99
       },
       {
         'id': 12,
